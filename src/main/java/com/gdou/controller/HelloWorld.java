@@ -10,6 +10,7 @@ public class HelloWorld {
 
     @GetMapping("/hello")
     public String hello(){
+
         return "hello";
     }
 }
